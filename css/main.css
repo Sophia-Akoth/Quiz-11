@@ -1,0 +1,159 @@
+body{
+	background-color: #D5D8DC;
+    font-family: arial;
+    margin: 0 auto
+}
+/*intro styling*/
+.bg-1{
+	background-color: #273746;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: 0;
+	font-size: 1.5vw;
+
+}
+h5{
+	font-weight: bold;
+}
+h6{
+	font-size: 1.2vw;
+	letter-spacing: 10px;
+	color: #E0BA10;
+	line-height: 2.0;
+
+}
+/*end of intro styling*/
+.container-fluid{
+	background-color: #34495E;
+	color: #fff;
+	padding: 60px;
+	text-align: center;
+
+}
+h1{
+	font-size: 2.7vw;
+	letter-spacing: 1.5px;
+	font-weight: bold;
+
+}
+/*goals and hobbies styling*/
+.col-xs-6{
+	background-color: #fff;
+	color: grey;
+	font-size: 1.2vw;
+	width: 480px;
+	height: 380px;
+	padding-right: 0;
+    margin-right: -140px;
+    margin-left: 185px;
+    padding-left: 0;
+	
+}
+
+h4{
+	background-color: #F4D03F;
+	padding: 20px;
+	margin-top: 0px;
+	font-size: 2.0vw;
+	color: #34495E;
+	font-weight: bold;
+
+}
+/*end of goals and hobbies styling*/
+
+/*about me styling*/
+ .container-fluid1{
+	width: 1000px;
+	min-height: 500px;
+	background-color: #fff;
+	margin: 30px auto 0 auto;
+	font-size: 1.2vw;
+	padding: 0;
+	margin-bottom: 30px;
+
+}
+
+h2{
+	background-color: #F4D03F;
+	padding: 20px;
+	font-size: 2.0vw;
+	color: #34495E;
+    font-weight: bold;
+
+
+ }
+.float-left{
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  float: left;
+}
+.me{
+	color: grey;
+}
+ /*end of about me styling*/
+
+/*table styling*/
+.table{
+width: 1005px;
+height: 400px;
+margin: 30px auto 0 auto;
+border-collapse: collapse;
+background-color: #fff;
+border:none;
+padding:0;
+}
+.table th{
+padding: 15px;
+text-align: center;
+background-color:#F4D03F; 
+color: #34495E;
+font-size: 1.5vw;
+}
+.table td, .table {
+  padding: 15px;
+  color: grey;
+  border:none;
+}
+.table td{
+	border: 1px solid #ddd;
+	text-align: center;
+	font-size: 1.1vw;
+}
+/*end of table styling*/
+
+/*footer styling*/
+footer {
+  margin-top: 40px;
+  opacity: 0.9;
+  font-size: 1.0vw;
+  padding: 3px;
+  background-color: #273746;
+}
+p{
+	padding-left: 150px;
+	color: #B2BABB;
+	}
+#one{
+	padding-left: 150px;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 50px;
+}
+h3{
+	color:yellow;
+	padding-top: 10px;
+	padding-left: 150px;
+	font-size: 0.9vw;
+	
+
+}
+ p:first-letter{
+	color: white;
+
+}
+/*end of footer styling*/
+
+
