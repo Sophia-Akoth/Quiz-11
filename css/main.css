@@ -4,7 +4,7 @@ body{
     margin: 0 auto
 }
 /*intro styling*/
-.bg-1{
+.heading{
 	background-color: #273746;
 	color: #fff;
 	padding: 20px;
@@ -23,8 +23,8 @@ h6{
 	line-height: 2.0;
 
 }
-/*end of intro styling*/
-.container-fluid{
+
+.heading2{
 	background-color: #34495E;
 	color: #fff;
 	padding: 60px;
@@ -37,8 +37,9 @@ h1{
 	font-weight: bold;
 
 }
+/*end of intro styling*/
 /*goals and hobbies styling*/
-.col-xs-6{
+.hobbies{
 	background-color: #fff;
 	color: grey;
 	font-size: 1.2vw;
@@ -46,7 +47,19 @@ h1{
 	height: 380px;
 	padding-right: 0;
     margin-right: -140px;
-    margin-left: 185px;
+    margin-left: 203px;
+    padding-left: 0;
+	
+}
+.goals{
+	background-color: #fff;
+	color: grey;
+	font-size: 1.2vw;
+	width: 480px;
+	height: 380px;
+	padding-right: 0;
+    margin-right: -140px;
+    margin-left: 181px;
     padding-left: 0;
 	
 }
@@ -63,7 +76,7 @@ h4{
 /*end of goals and hobbies styling*/
 
 /*about me styling*/
- .container-fluid1{
+ .about{
 	width: 1000px;
 	min-height: 500px;
 	background-color: #fff;
@@ -83,15 +96,16 @@ h2{
 
 
  }
-.float-left{
+img{
   padding-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 20px;
-  float: left;
+  
 }
-.me{
+#me{
 	color: grey;
+	margin-left: 50px;
 }
  /*end of about me styling*/
 
@@ -131,13 +145,14 @@ footer {
   font-size: 1.0vw;
   padding: 3px;
   background-color: #273746;
+  width: 1600px;
 }
 p{
-	padding-left: 150px;
+	padding-left: 165px;
 	color: #B2BABB;
 	}
 #one{
-	padding-left: 150px;
+	padding-left: 165px;
 	color: #fff;
 	font-weight: bold;
 	padding-top: 50px;
@@ -145,7 +160,7 @@ p{
 h3{
 	color:yellow;
 	padding-top: 10px;
-	padding-left: 150px;
+	padding-left: 165px;
 	font-size: 0.9vw;
 	
 
